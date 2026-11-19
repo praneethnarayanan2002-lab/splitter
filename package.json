@@ -1,0 +1,10 @@
+{
+  "name": "splitter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Split shared expenses between roommates. Static site, no build step.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 -m http.server 8000"
+  }
+}
